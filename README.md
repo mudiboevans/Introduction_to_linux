@@ -43,12 +43,29 @@ less
 sort
 cd
 
-### Deleting files and directories
+### Removing/Deleting files and directories
 for file use rm <file>
+  rm -i gives opportunity to confirm if you are sure you want to delete
 for directory rm -r <directory>
 any empty directory can be removed by rmdir <directory>
   
 ### tab completion
 tab completion is used to complete a command or a directory or a file
-  
-  
+
+### touch command
+for creating new empty file
+
+### mv command
+used to move a file or a directory
+
+### wildcards * and ?
+* matches against none or more characters in a file (or directory) name
+usage: ls list* - this will list all files in the current directory starting with **list...
+ls *list - will list all files in the current directory ending with **....list**
+
+? character matches exactly one character. i.e 
+ls ?ouse will match files like **house and mouse, but not grouse**
+
+### cp command
+for copying files and directories
+
