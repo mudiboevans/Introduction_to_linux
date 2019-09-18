@@ -75,6 +75,7 @@ cp -r for copying a directory
  
  ### cat (concatenate) command
  displays the contents of a file on the screen
+ also used to combine files
  
  ### less command
  writes the contents of a file onto the screen a page at a time.
@@ -102,5 +103,14 @@ cp -r for copying a directory
   wc -l counts lines
   wc -m counts characters
   
+  ### mv command can also be used in renaming files
+  mv file1 file2 - renames file1 to be file2
   
-  
+### nano command
+for editing a file
+
+### echo 
+displays information of environment variables 
+they contain user-specific or system-wide values
+that either reflect simple pieces of information (your username), 
+or lists of useful locations on the file system
