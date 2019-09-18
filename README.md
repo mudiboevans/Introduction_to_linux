@@ -70,3 +70,37 @@ ls ?ouse will match files like **house and mouse, but not grouse**
 for copying files and directories
 cp -r for copying a directory
 
+### clear command
+ clears the terminal with of the previous commands.
+ 
+ ### cat (concatenate) command
+ displays the contents of a file on the screen
+ 
+ ### less command
+ writes the contents of a file onto the screen a page at a time.
+ press the space-bar for next page
+ type q to quit
+ less command can also be used for searching a given content in the file
+ type less <file name>
+  /<specific word in the content you are searchiong for>
+  
+  ### grep command
+  searches files for specified words or patterns.
+  it is case sensitive.
+  to ignore case distinctions, -i option is used i.e.
+  grep -i science Science science.txt
+  to search for a phrase or pattern, single quotes are used
+  grep -i 'biology of human diseases' science.txt
+  other grep options
+  -v displays those lines that dont match
+  -n precede each matching line with the line number
+  -c print only the toal count of matched lines
+  
+  ### wc command
+  used for word count
+  wc -w counts words
+  wc -l counts lines
+  wc -m counts characters
+  
+  
+  
