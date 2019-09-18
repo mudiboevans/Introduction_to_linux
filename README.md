@@ -68,4 +68,5 @@ ls ?ouse will match files like **house and mouse, but not grouse**
 
 ### cp command
 for copying files and directories
+cp -r for copying a directory
 
