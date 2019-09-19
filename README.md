@@ -114,6 +114,7 @@ displays information of environment variables
 they contain user-specific or system-wide values
 that either reflect simple pieces of information (your username), 
 or lists of useful locations on the file system
+echo is also used to append the data to an existing file.
 
 ### wget command
 downloading file using the location link of a given file
