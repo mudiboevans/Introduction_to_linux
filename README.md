@@ -114,3 +114,40 @@ displays information of environment variables
 they contain user-specific or system-wide values
 that either reflect simple pieces of information (your username), 
 or lists of useful locations on the file system
+
+### wget command
+downloading file using the location link of a given file
+
+#### curl command
+download the contents of any URL you provide it and print it to STDOUT
+to download the content in the filesystem you redirect the output of curl to the file i.e.
+curl https://classroom.google.com/u/1/c/Mzc4Mjc5MjA5MDZa/a/NDE5NDkxMjI4NjVa/details > outputfile
+
+### pipe | command 
+connects two unix programs
+
+    View  10 lines of a file (using head and tail commands):
+
+### tail -n 20 file.txt | head
+
+    Show lines of a file that begin with a start codon (ATG) (the ^ matches patterns at the start of a line):
+
+### grep "^ATG" file.txt
+
+    Cut out the 3rd column of a tab-delimited text file and sort it to only show unique lines (i.e. remove duplicates):
+
+### cut -f 3 file.txt | sort -u
+
+    Count how many lines in a file contain the words 'cat' or 'bat' (-c option of grep counts lines):
+
+### grep -c '[bc]at' file.txt
+
+    Turn lower-case text into upper-case (using tr command to 'transliterate'):
+
+### tr 'a-z' 'A-Z' < file.txt
+
+    Change all occurences of 'Chr1' to 'Chromosome 1' and write changed output to a new file (using sed command):
+
+### sed 's/Chr1/Chromosome 1/g' file.txt > file2.txt
+
+
