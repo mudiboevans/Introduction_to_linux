@@ -151,4 +151,26 @@ connects two unix programs
 
 ### sed 's/Chr1/Chromosome 1/g' file.txt > file2.txt
 
+### gzip
+compresses a file i.e. gzip science.txt
+
+### pipes
+connects the output of command to be input of of another command. 
+the symbol for pipe is the vertical bar |
+
+### Changing the access rights (chmod)
+only the ownwer of a file can use chmod to change the permissions of a file. options include
+u  user
+g  group
+o  other
+a  all
+r  read
+w  write(and delete)
+x  execute(and acess directory)
++ add permission i.e.
+
+to remove read write and execute permissions on a science.txt file for the group and others, type
+% chmod go-rwx science
+to give read and write permissions on the science.txt file to all, type
+chmod a+rw science.txt
 
